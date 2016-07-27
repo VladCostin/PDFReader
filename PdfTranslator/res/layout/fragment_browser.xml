@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_borders_left_browser"
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+    
+    
+    <!--  
+     <LinearLayout
+       android:id="@+id/viewLettersContainer" 
+       android:layout_height="fill_parent"
+       android:layout_width="0dp"
+       android:layout_weight="0.1"
+       android:background="#0099CC"
+       android:layout_marginRight="10dp"
+       android:layout_marginEnd="10dp"
+   	>
+   	
+         
+   	 	<LinearLayout
+       		android:id="@+id/listViewLetters" 
+       		android:layout_height="match_parent"
+       		android:layout_width="match_parent"
+       		android:weightSum="1"
+       		android:orientation="vertical"
+   		/> 
+   		
+         
+   </LinearLayout> 
+    
+    
+   <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.90"
+                android:childDivider="#00000000"
+
+			 
+   /> 
+   -->
+ <!--    android:headerDividersEnabled="false" --> 
+  
+    <ListView 
+    	android:id="@+id/listviewBrowser"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" 
+    	android:fastScrollEnabled="true"
+    	android:headerDividersEnabled="false"
+    	android:fastScrollAlwaysVisible="true"
+    	android:divider="#00000000"
+    /> 
+
+</LinearLayout>

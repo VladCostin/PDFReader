@@ -1,0 +1,110 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/info_layout">
+    
+	 <TextView
+            android:id="@+id/CellTranslation"
+            android:text="@string/CellTranslation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:background="@color/darkGreen"
+      		android:textAppearance="?android:attr/textAppearanceLarge"
+      />
+
+    <TextView 
+    	    android:id="@+id/TranslationValue"
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="aaa"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+        	android:layout_marginBottom="5dp"
+	/>	
+	
+	<TextView
+            android:id="@+id/CellDefinition"
+            android:text="@string/CellDefinition"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:background="@color/darkGreen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+     />
+
+    	 <TextView
+            android:id="@+id/DefinitionValue"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="aaa"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+        	android:layout_marginBottom="5dp"
+          />
+
+	<TextView
+            android:id="@+id/ExampleRow"
+            android:text="@string/CellExample"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:background="@color/darkGreen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+     />
+
+    	 <TextView
+            android:id="@+id/ExampleValue"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="aaa"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+        	android:layout_marginBottom="5dp"
+          />
+
+	<TextView
+            android:id="@+id/PartSpeechRow"
+            android:text="@string/CellPartSpeech"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:background="@color/darkGreen"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+     />
+
+    	 <TextView
+            android:id="@+id/PartSpeechValue"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="aaa"
+        	android:textAppearance="?android:attr/textAppearanceMedium"
+        	android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+        	android:layout_marginBottom="5dp"
+          />
+
+	</LinearLayout>
+   	 
+
+    
+</ScrollView> 

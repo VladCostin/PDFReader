@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pdftranslator.dictionaryManage.ActivityDictionary" >
+
+
+     <item android:id="@+id/itemSearchWord"
+     	android:showAsAction="always"
+     	android:icon="@drawable/ic_action_search_dark"
+     	android:title="@string/settingsSearchWord"
+    />
+     <item android:id="@+id/itemSelectBook"
+         android:title="@string/settingsSelectBook"
+         android:showAsAction="withText"
+     />
+     <item android:id="@+id/itemSettingsDictionary"
+         android:title="@string/settingsSetSettings"
+         android:showAsAction="withText"
+     />
+     
+    <item 
+        android:id="@+id/iconMenuDelete"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="delete"
+    />
+         
+    
+    <item
+        android:id="@+id/buttonBefore"
+        android:title="@string/title_previous_pages"
+        android:showAsAction="always"
+    />
+    
+    <item
+        android:id="@+id/buttonNext"
+        android:title="@string/title_next_pages"
+        android:showAsAction="always"
+    />
+    
+
+    
+    
+
+</menu>
